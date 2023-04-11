@@ -1,0 +1,35 @@
+.container{
+    margin-bottom: 1.2rem;
+}
+.contact-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-width: 500px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+.contact-list-item{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.2s ease;
+}
+.contact-list-item:last-child{
+    border-bottom: none;
+}
+.contact-list-item:hover{
+    background-color: #eee;
+    cursor: pointer;
+}
+.contact-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
